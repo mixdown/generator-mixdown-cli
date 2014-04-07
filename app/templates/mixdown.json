@@ -1,0 +1,29 @@
+{
+  "app": {
+    "plugins": {
+
+    }
+  },
+  "logger": {
+    "level": "debug",
+    "console": {
+      "color": true
+    },
+    "name": "my-app-key"
+  },
+  "services": {
+    "options": {
+      "paths": ["./services"]
+    }
+  },
+  "main": {
+    "module": "mixdown-cli",
+    "options": {
+      "delegate": {
+        "module": "./delegate.js",
+        "options": { }
+      }
+    }
+  }
+
+}
