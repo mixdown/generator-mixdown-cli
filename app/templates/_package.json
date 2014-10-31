@@ -9,8 +9,8 @@
   "main": "index.js",
   "dependencies": {
     "lodash": "~2.4.1",
-    "mixdown-cli": "0.0.3",
-    "mixdown": "~1.2.0"
+    "mixdown": "^3.0.0",
+    "mixdown-app": "^3.0.5",
   },
   "devDependencies": {
     "mocha": "*"
