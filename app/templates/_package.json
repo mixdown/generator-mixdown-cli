@@ -10,7 +10,7 @@
   "dependencies": {
     "lodash": "~2.4.1",
     "mixdown": "^3.0.0",
-    "mixdown-app": "^3.0.5",
+    "mixdown-app": "^3.0.5"
   },
   "devDependencies": {
     "mocha": "*"
